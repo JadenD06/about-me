@@ -3,15 +3,56 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Song of the Day</title>
+  <title>About Jaden</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+   <video class="bg-video" autoplay muted loop playsinline>
+   <source src="background.mp4" type="video/mp4" />
+   </video>
+
+  <div class="bg-dim"></div>
+   <div class="intro">
+  <h1 class="intro-title">Hello! I am Jaden Dsouza</h1>
+  <div class = "intro-glass">
+  <p class="intro-sub">
+  An undergrad engineering student 
+  <span class="highlight">@ BITS Pilani</span>. Currently exploring the world of Math and Computer Science.
+ </p>
+
+ <p class="intro-sub">
+  I love <span class="highlight">designing</span>, playing games and watching shows.
+ </p>
+ </div>
+  </div>
+ 
+  <div class="skills">
+  <div class="skill-card">
+    <img src="icons/python.png" alt="Python" />
+    <span>Python</span>
+  </div>
+
+  <div class="skill-card">
+    <img src="icons/c.png" alt="C/C++" />
+    <span>C/C++</span>
+  </div>
+  <div class="skill-card">
+    <img src="icons/html.png" alt="HTML" />
+    <span>HTML</span>
+  </div>
+  <div class="skill-card">
+    <img src="icons/css.png" alt="CS" />
+    <span>CSS</span>
+  </div>
+ </div>
+
 
   <main class="container">
     <p class="date" id="date"></p>
 
+    <div class="cover-wrapper"></div>
     <img id="cover" class="cover" src="cover.jpg" alt="Song cover" />
+    </div>
 
     <h1 id="title">Song Title</h1>
     <h2 id="artist">Artist Name</h2>
